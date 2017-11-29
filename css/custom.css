@@ -1,0 +1,48 @@
+#section-services .col-md-4 > div > div {
+  min-height: 380px;
+}
+.carousel-caption {
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  text-align: left;
+}
+.carousel-caption h2 {
+  color: #fff;
+  font-size: 54px;
+  margin-top: -20%;
+  line-height: 74px;
+  text-transform: uppercase;
+}
+.carousel-caption h2 > div {
+  color: #FAB702;
+  text-shadow: 0px 1px 30px rgba(255, 255, 255, .1);
+}
+.carousel-caption > address {
+  margin-top: 200px;
+}
+.carousel-caption > address > a {
+  color: #fff;
+  font-size: 24px;
+  text-shadow: none;
+}
+.carousel-caption > address > a:focus,
+.carousel-caption > address > a:hover {
+  color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .carousel-caption {
+    top: 35%;
+  }
+  .carousel-caption h2 {
+    font-size: 18px;
+    margin-top: -15%;
+    line-height: 22px;
+  }
+  .carousel-caption > address {
+    margin-top: 30px;
+  }
+  .carousel-caption > address > a {
+    font-size: 14px;
+  }
+}
