@@ -271,7 +271,6 @@ jQuery(document).ready(function () {
                 'margin-top': -h * ($scale - 1) / 2
             }, 700, 'easeOutQuad');
 
-
         }).on("mouseleave", function () {
             var newheight;
             var picheight = jQuery(this).find("img").css("height");

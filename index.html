@@ -6,16 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Responsive Minimal Bootstrap Theme">
   <meta name="keywords" content="onepage,responsive,minimal,bootstrap,theme">
-  <meta name="author" content="">
-
+  <meta name="author" content="issayev.adilet@gmail.com">
 
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
   <![endif]-->
 
-
-  <!-- CSS Files
-  ================================================== -->
+  <!-- CSS Files -->
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/jpreloader.css" type="text/css">
   <link rel="stylesheet" href="css/plugin.css" type="text/css">
@@ -46,96 +43,442 @@
 
   <div id="wrapper">
 
-    <!-- header begin -->
+    <!-- HEADER -->
     <header>
-
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <!-- logo begin -->
+            <!-- LOGO -->
             <div id="logo">
               <a href="#wrapper">
                 <img class="logo" src="images/logo5.png" alt="">
               </a>
             </div>
-            <!-- logo close -->
 
             <!-- small button begin -->
             <span id="menu-btn"></span>
-            <!-- small button close -->
 
             <!-- mainmenu begin -->
             <nav>
               <ul id="mainmenu">
+                <li><a class="menu-tel" href="tel:+77778886644"><span class="fa fa-phone"></span> +7 (777) 8878844</a></li>
+              </ul>
+              <ul id="mainmenu">
                 <li><a href="#wrapper">Главная</a></li>
                 <li><a href="#section-services">Услуги</a></li>
-                <li><a href="#section-steps">Подход</a></li>
-                <li><a href="#section-team">Команда</a></li>
                 <li><a href="#section-portfolio">Проекты</a></li>
                 <li><a href="#section-contact">Контакты</a></li>
               </ul>
             </nav>
           </div>
-          <!-- mainmenu close -->
         </div>
       </div>
     </header>
-    <!-- header close -->
 
 
-
-    <!-- content begin -->
+    <!-- CONTENT -->
     <div id="content" class="no-bottom no-top">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="images/background/3d-interior-design2.jpg" alt="...">
-            <div class="carousel-caption">
-              <h2>Разработка Дизайна <div>Интерьера и Экстерьера</div></h2>
-              <address><a href="tel:+77016666041" target="_top" data-attr="phone">+7 (701) 666-60-41</a></address>
+
+      <!-- HEADER BACKGROUND -->
+      <section id="section-welcome-10" >
+
+        <div class="center-y">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+
+                <h1 class="style-header">Профессиональный Ремонт жилых и коммерческих помещений под ключ</h1>
+
+                <h2 class="teaser-header">Любой сложности с гарантией качества на 3 года</h2>
+
+                <div class="spacer-double"></div>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                  Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- OFFER -->
+      <section class="bg-color text-center">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>ХОТИТЕ СЭКОНОМИТЬ СОТНИ ТЫСЯЧ ТЕНГЕ?</h2>
+              <h4>Оставьте заявку и мы расскажем как это сделать</h4>
+            </div>
+
+            <div class="col-md-12">
+              <form name="contactForm" id='contact_form' method="post" action='email.php'>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div id='name_error' class='error'>Введите Ваше имя:</div>
+                    <div>
+                      <input type='text' name='name' id='name' class="form-control" placeholder="Ваше имя">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id='phone_error' class='error'>Введите номер телефона:</div>
+                    <div>
+                      <input type='text' name='phone' id='phone' class="form-control" placeholder="Ваш номер телефона">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div>
+                      <input type='submit' id='send_message' value='Отправить заявку' class="btn btn-block btn-app btn-lg">
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- section begin -->
+      <!-- FACTS -->
+      <section id="section-fun-facts">
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <h2>ФАКТЫ ОБ INTERIOR ALMATY</h2>
+              <div class="separator"><span><i class="fa fa-circle"></i></span></div>
+              <div class="spacer-single"></div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col-md-4">
+              <div class="de_count">
+                <i class="icon-calendar"></i>
+                <h3>С 2010 года на рынке Казахстана</h3>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="de_count">
+                <i class="icon-paintbrush"></i>
+                <h3>За 2017 год отремонтировано более 2000 квадратных метров</h3>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="de_count">
+                <i class="icon-profile-male"></i>
+                <h3>В компании работают опытные бригадиры</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ADVANTAGES -->
+      <section id="section-why-choose-us">
+        <div class="container text-light">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>6 Причин обратиться к Interer Almaty</h2>
+              <div class="separator"><span><i class="fa fa-circle"></i></span></div>
+              <div class="spacer-single"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-number">
+                <span class="number bg-color">1</span>
+                <div class="text">
+                  <h3><span class="id-color">Interior Expertise</span></h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="box-number">
+                <span class="number bg-color">2</span>
+                <div class="text">
+                  <h3><span class="id-color">Awards Winning</span></h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="box-number">
+                <span class="number bg-color">3</span>
+                <div class="text">
+                  <h3><span class="id-color">Reasonable Price</span></h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="spacer-single"></div>
+
+            <div class="col-md-4">
+              <div class="box-number">
+                <span class="number bg-color">4</span>
+                <div class="text">
+                  <h3><span class="id-color">Free Consultation</span></h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="box-number">
+                <span class="number bg-color">5</span>
+                <div class="text">
+                  <h3><span class="id-color">Guaranteed Works</span></h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="box-number">
+                <span class="number bg-color">6</span>
+                <div class="text">
+                  <h3><span class="id-color">24 / 7 Support</span></h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="section-portfolio" class="no-bottom" aria-label="section-portfolio">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Наши работы</h2>
+              <div class="separator"><span><i class="fa fa-circle"></i></span></div>
+              <div class="spacer-single"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="gallery" class="gallery full-gallery de-gallery pf_full_width">
+
+          <div class="item home">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details-1.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Eco Green Interior</span>
+                  </span>
+                </span>
+              </a>
+              <img src="images/portfolio/pf (1).jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item hospitaly">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details-2.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Modern Elegance Suite</span>
+                  </span>
+                </span>
+              </a>
+
+              <img src="images/portfolio/pf (2).jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item hospitaly">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details-3.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Apartment Renovation</span>
+                  </span>
+                </span>
+              </a>
+
+              <img src="images/portfolio/pf (3).jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item home">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Youtube Video</span>
+                  </span>
+                </span>
+              </a>
+              <img src="images/portfolio/pf (4).jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item office">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Vimeo Video</span>
+                  </span>
+                </span>
+              </a>
+              <img src="images/portfolio/pf (5).jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item commercial">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Restaurant In Texas</span>
+                  </span>
+                </span>
+              </a>
+              <img src="images/portfolio/pf (6).jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item home">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Summer House</span>
+                  </span>
+                </span>
+              </a>
+
+              <img src="images/portfolio/pf (7).jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item office">
+            <div class="picframe">
+              <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
+                <span class="overlay">
+                  <span class="pf_text">
+                    <span class="project-name">Office On Space</span>
+                  </span>
+                </span>
+              </a>
+
+              <img src="images/portfolio/pf (8).jpg" alt="" />
+            </div>
+          </div>
+
+        </div>
+
+        <div id="loader-area">
+          <div class="project-load"></div>
+        </div>
+      </section>
+
+      <!-- OFFER -->
+      <section id="view-all-projects" class="call-to-action bg-color text-center" data-speed="5" data-type="background" aria-label="view-all-projects">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h2>ХОТИТЕ СЭКОНОМИТЬ СОТНИ ТЫСЯЧ ТЕНГЕ?</h2>
+              <h4>Оставьте заявку и мы расскажем как это сделать</h4>
+            </div>
+
+            <div class="col-md-12">
+              <form name="contactForm" id='contact_form' method="post" action='email.php'>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div id='name_error' class='error'>Введите Ваше имя:</div>
+                    <div>
+                      <input type='text' name='name' id='name' class="form-control" placeholder="Ваше имя">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id='phone_error' class='error'>Введите номер телефона:</div>
+                    <div>
+                      <input type='text' name='phone' id='phone' class="form-control" placeholder="Ваш номер телефона">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div>
+                      <input type='submit' id='send_message' value='Отправить заявку' class="btn btn-line btn-block  btn-line-black btn-big">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT WE CAN? -->
       <section id="section-services">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
-              <h1>Что мы умеем</h1>
+            <div class="col-md-6 col-md-offset-3 text-center ">
+              <h2>Что мы умеем?</h2>
               <div class="separator"><span><i class="fa fa-circle"></i></span></div>
               <div class="spacer-single"></div>
             </div>
 
             <div class="row">
-              <div class="col-md-4 text-middle text-light wow fadeInRight" data-wow-delay="0">
+              <div class="col-md-4 text-middle text-light ">
                 <div class="shadow-soft" data-bgimage="url(images/services/1-dizayn-interyera-600x460.jpg)">
-                  <div class="padding35 overlay50">
-                    <h3>Дизайн Интерьера</h3>
-                    <p>Сделать интерьер офиса или дома уникальным можно при поддержке специалистов компании «Interior Almaty». Для решения задачи по планировке интерьера используются современные варианты чистовой отделки пола, потолков и стен.</p>
-                    <a href="service-1.html" class="btn-line btn-fullwidth">Узнать больше</a>
+                  <div class="padding35 overlay30">
+                    <h3>Дизайн проекта</h3>
+                    <!-- <p>Сделать интерьер офиса или дома уникальным можно при поддержке специалистов компании «Interior Almaty». Для решения задачи по планировке интерьера используются современные варианты чистовой отделки пола, потолков и стен.</p> -->
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4 text-middle text-light wow fadeInRight" data-wow-delay=".1s">
+              <div class="col-md-4 text-middle text-light ">
                 <div class="shadow-soft" data-bgimage="url(images/services/2-dizayn-eksteryera-600x460.jpg)">
-                  <div class="padding35 overlay50">
-                    <h3>Дизайн Экстерьера</h3>
-                    <p>Для отделки фасада специалистами используется декоративный камень, отделка натуральным деревом или штукатуркой с элементами лепнины.</p>
-                    <a href="#service-2.html" class="btn-line btn-fullwidth">Узнать больше</a>
+                  <div class="padding35 overlay30">
+                    <h3>Плотницкие работы</h3>
+                    <!-- <p>Для отделки фасада специалистами используется декоративный камень, отделка натуральным деревом или штукатуркой с элементами лепнины.</p> -->
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4 text-middle text-light wow fadeInRight" data-wow-delay=".3s">
+              <div class="col-md-4 text-middle text-light ">
                 <div class="shadow-soft" data-bgimage="url(images/services/3-remont-kvartir-domov-ofisov-600x460.jpg)">
-                  <div class="padding35 overlay50">
-                    <h3>Ремонт квартир, домов и офисов</h3>
-                    <p>В штате компании работают узкопрофильные специалисты по внутренней отделке и дизайнеры. Каждый специалист отвечает за качество проводимых работ, что позволяет гарантировать для заказчика оптимизацию трат на дизайн интерьера любой сложности.</p>
-                    <a href="#service-3.html" class="btn-line btn-fullwidth">Узнать больше</a>
+                  <div class="padding35 overlay30">
+                    <h3>Укладка кафеля</h3>
+                    <!-- <p>В штате компании работают узкопрофильные специалисты по внутренней отделке и дизайнеры. Каждый специалист отвечает за качество проводимых работ, что позволяет гарантировать для заказчика оптимизацию трат на дизайн интерьера любой сложности.</p> -->
                   </div>
                 </div>
               </div>
@@ -144,32 +487,57 @@
             <br>
 
             <div class="row">
-              <div class="col-md-4 text-middle text-light wow fadeInRight" data-wow-delay="0">
+              <div class="col-md-4 text-middle text-light ">
                 <div class="shadow-soft" data-bgimage="url(images/services/4-otdelka-interyerov-gipsovoy-lepninoy-600x460.jpg)">
-                  <div class="padding35 overlay50">
+                  <div class="padding35 overlay30">
                     <h3>Отделка интерьеров гипсовой лепниной</h3>
-                    <p>Для обрамления световых приборов, оконных и дверных проемов, а также колонн используется гипсовая лепнина. Специалисты компании «Interior Almaty» применяют данную технологию отделки для того, чтобы визуально сделать потолок выше, сделать интерьер уникальным.</p>
-                    <a href="#service-4.html" class="btn-line btn-fullwidth">Узнать больше</a>
+                    <!-- <p>Для обрамления световых приборов, оконных и дверных проемов, а также колонн используется гипсовая лепнина. Специалисты компании «Interior Almaty» применяют данную технологию отделки для того, чтобы визуально сделать потолок выше, сделать интерьер уникальным.</p> -->
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4 text-middle text-light wow fadeInRight" data-wow-delay=".1s">
+              <div class="col-md-4 text-middle text-light ">
                 <div class="shadow-soft" data-bgimage="url(images/services/5-umnyi-dom-600x460.jpg)">
-                  <div class="padding35 overlay50">
+                  <div class="padding35 overlay30">
                     <h3>Умный дом</h3>
-                    <p>Для того чтобы сделать проживание в доме безопасным и комфортным, в него внедряется система «Умный дом». Она предназначена для контроля работы различных систем, используется для обеспечения безопасности объекта. Управление системой осуществляется с использованием специального программного обеспечения.</p>
-                    <a href="#service-5.html" class="btn-line btn-fullwidth">Узнать больше</a>
+                    <!-- <p>Для того чтобы сделать проживание в доме безопасным и комфортным, в него внедряется система «Умный дом». Она предназначена для контроля работы различных систем, используется для обеспечения безопасности объекта. Управление системой осуществляется с использованием специального программного обеспечения.</p> -->
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4 text-middle text-light wow fadeInRight" data-wow-delay=".3s">
+              <div class="col-md-4 text-middle text-light ">
                 <div class="shadow-soft" data-bgimage="url(images/services/6-otdelka-fasadov-fibrobetonom-600x460.jpg)">
-                  <div class="padding35 overlay50">
-                    <h3>Отделка фасадов фибробетоном</h3>
-                    <p>Для того чтобы придать фасаду частного дома или офиса оригинальный вид, специалистами компании «Interior Almaty» используется технология монтажа фибробетонных плит. Они обладают прочностью, сравнимой с камнем и предоставляют широкие возможности для наружного декора.</p>
-                    <a href="#service-6.html" class="btn-line btn-fullwidth">Узнать больше</a>
+                  <div class="padding35 overlay30">
+                    <h3>Натяжные потолки</h3>
+                    <!-- <p>Для того чтобы придать фасаду частного дома или офиса оригинальный вид, специалистами компании «Interior Almaty» используется технология монтажа фибробетонных плит. Они обладают прочностью, сравнимой с камнем и предоставляют широкие возможности для наружного декора.</p> -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <br>
+
+            <div class="row">
+              <div class="col-md-4 text-middle text-light ">
+                <div class="shadow-soft" data-bgimage="url(images/services/4-otdelka-interyerov-gipsovoy-lepninoy-600x460.jpg)">
+                  <div class="padding35 overlay30">
+                    <h3>Сантехника электрика</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <div class="shadow-soft" data-bgimage="url(images/services/5-umnyi-dom-600x460.jpg)">
+                  <div class="padding35 overlay30">
+                    <h3>Декоративная штукатурка</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <div class="shadow-soft" data-bgimage="url(images/services/6-otdelka-fasadov-fibrobetonom-600x460.jpg)">
+                  <div class="padding35 overlay30">
+                    <h3>Вентиляция и кондиционирование</h3>
                   </div>
                 </div>
               </div>
@@ -178,15 +546,138 @@
           </div>
         </div>
       </section>
-      <!-- section close -->
+
+      <!-- PRICING -->
+      <section id="pricing-table">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center ">
+              <h2>Тариф</h2>
+              <div class="separator"><span><i class="fa fa-circle"></i></span></div>
+              <div class="spacer-single"></div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="pricing-s1 mb30">
+                <div class="top">
+                  <h2>КОСМЕТИЧЕСКИЙ РЕМОНТ</h2>
+                </div>
+                <div class="bottom">
+                  <ul>
+                    <li><i class="icon_check"></i>Conceptual Overview</li>
+                    <li><i class="icon_check"></i>Styling Layout</li>
+                    <li><i class="icon_check"></i>Color Pallete &amp; Paint Chart</li>
+                    <li><i class="icon_check"></i>Budget Planning</li>
+                    <li><i class="icon_check"></i>1 Day Consultation</li>
+                  </ul>
+                  <a href="" class="btn btn-custom">Sign Up Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="pricing-s1 mb30">
+                <div class="ribbon">Recommend</div>
+                <div class="top">
+                  <h2>КАПИТАЛЬНЫЙ РЕМОНТ</h2>
+                </div>
+                <div class="bottom">
+                  <ul>
+                    <li><i class="icon_check"></i>Conceptual Overview</li>
+                    <li><i class="icon_check"></i>Styling Layout</li>
+                    <li><i class="icon_check"></i>Color Pallete &amp; Paint Chart</li>
+                    <li><i class="icon_check"></i>Budget Planning</li>
+                    <li><i class="icon_check"></i>3 Days Consultation</li>
+                  </ul>
+                  <a href="" class="btn btn-custom">Sign Up Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="pricing-s1 mb30">
+                <div class="top">
+                  <h2>ЭКСКЛЮЗИВНЫЙ РЕМОНТ</h2>
+                </div>
+                <div class="bottom">
+                  <ul>
+                    <li><i class="icon_check"></i>Conceptual Overview</li>
+                    <li><i class="icon_check"></i>Styling Layout</li>
+                    <li><i class="icon_check"></i>Color Pallete &amp; Paint Chart</li>
+                    <li><i class="icon_check"></i>Budget Planning</li>
+                    <li><i class="icon_check"></i>2 Weeks Consultation</li>
+                  </ul>
+                  <a href="" class="btn btn-custom">Sign Up Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARTNERS -->
+      <section id="section-services">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center ">
+              <h2>Партнеры</h2>
+              <div class="separator"><span><i class="fa fa-circle"></i></span></div>
+              <div class="spacer-single"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+            </div>
+            <br>
+
+            <div class="row">
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+
+              <div class="col-md-4 text-middle text-light ">
+                <img src="images/ttd.png" class="center-block">
+              </div>
+            </div>
+            <br>
 
 
-      <!-- section begin -->
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
       <section id="section-steps" class="text-light">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
-              <h1>Процесс работы</h1>
+            <div class="col-md-6 col-md-offset-3 text-center ">
+              <h2>Процесс работы</h2>
               <div class="separator"><span><i class="fa fa-circle"></i></span></div>
               <div class="spacer-single"></div>
             </div>
@@ -194,13 +685,13 @@
             <div class="col-md-12">
               <div class="de_tab tab_steps">
                 <ul class="de_nav">
-                  <li class="active wow fadeIn" data-wow-delay="0s"><span>Выезд на замер</span><div class="v-border"></div>
+                  <li class="active "><span>Выезд на замер</span><div class="v-border"></div>
                   </li>
-                  <li class="wow fadeIn" data-wow-delay=".4s"><span>Разработка проекта</span><div class="v-border"></div>
+                  <li class=""><span>Разработка проекта</span><div class="v-border"></div>
                   </li>
-                  <li class="wow fadeIn" data-wow-delay=".8s"><span>Подбор материалов</span><div class="v-border"></div>
+                  <li class=""><span>Подбор материалов</span><div class="v-border"></div>
                   </li>
-                  <li class="wow fadeIn" data-wow-delay="1.2s"><span>Авторский надзор</span><div class="v-border"></div>
+                  <li class=""2s"><span>Авторский надзор</span><div class="v-border"></div>
                   </li>
                 </ul>
 
@@ -227,335 +718,54 @@
           </div>
         </div>
       </section>
-      <!-- section close -->
 
-      <!-- section begin -->
-      <section id="section-team">
-        <div class="container">
-          <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
-            <h1>Наша команда</h1>
-            <div class="separator"><span><i class="fa fa-circle"></i></span></div>
-            <div class="spacer-single"></div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12 container-4 wow fadeInUp">
-              <!-- team member -->
-              <div class="de-team-list">
-                <div class="team-pic">
-                  <img src="images/avatars/user.png" class="img-responsive" alt="" />
-                </div>
-                <div class="team-desc col-md-12">
-                  <h3>John Smith</h3>
-                  <p class="lead">Project Manager</p>
-                  <div class="small-border"></div>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                  <div class="social">
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                  </div>
-                </div>
-              </div>
-              <!-- team close -->
-
-              <!-- team member -->
-              <div class="de-team-list">
-                <div class="team-pic">
-                  <img src="images/avatars/user2.png" class="img-responsive" alt="" />
-                </div>
-                <div class="team-desc col-md-12">
-                  <h3>Michael Dennis</h3>
-                  <p class="lead">Creative Director</p>
-                  <div class="small-border"></div>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                  <div class="social">
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                  </div>
-                </div>
-              </div>
-              <!-- team close -->
-
-              <!-- team member -->
-              <div class="de-team-list">
-                <div class="team-pic">
-                  <img src="images/avatars/user.png" class="img-responsive" alt="" />
-                </div>
-                <div class="team-desc col-md-12">
-                  <h3>Sarah Michelle</h3>
-                  <p class="lead">Creative Staff</p>
-                  <div class="small-border"></div>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                  <div class="social">
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                  </div>
-                </div>
-              </div>
-              <!-- team close -->
-
-              <!-- team member -->
-              <div class="de-team-list">
-                <div class="team-pic">
-                  <img src="images/avatars/user2.png" class="img-responsive" alt="" />
-                </div>
-                <div class="team-desc col-md-12">
-                  <h3>Katty Wilson</h3>
-                  <p class="lead">Creative Staff</p>
-                  <div class="small-border"></div>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                  <div class="social">
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                  </div>
-                </div>
-              </div>
-              <!-- team close -->
-
-              <div class="clearfix"></div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section close -->
-
-      <!-- section begin -->
-      <section id="section-portfolio" class="no-top no-bottom" aria-label="section-portfolio">
-        <div class="container">
-
-          <div class="spacer-single"></div>
-
-          <!-- portfolio filter begin -->
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
-                <li><a href="#" data-filter="*" class="selected">Все проекты</a></li>
-                <li><a href="#" data-filter=".home">Частные Дома</a></li>
-                <li><a href="#" data-filter=".office">Офисы</a></li>
-                <li><a href="#" data-filter=".commercial">Торговые центры</a></li>
-              </ul>
-
-            </div>
-          </div>
-          <!-- portfolio filter close -->
-
-        </div>
-
-        <div id="gallery" class="gallery full-gallery de-gallery pf_full_width wow fadeInUp" data-wow-delay=".3s">
-
-          <!-- gallery item -->
-          <div class="item home">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details-1.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Eco Green Interior</span>
-                  </span>
-                </span>
-              </a>
-              <img src="images/portfolio/pf (1).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-          <!-- gallery item -->
-          <div class="item hospitaly">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details-2.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Modern Elegance Suite</span>
-                  </span>
-                </span>
-              </a>
-
-              <img src="images/portfolio/pf (2).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-          <!-- gallery item -->
-          <div class="item hospitaly">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details-3.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Apartment Renovation</span>
-                  </span>
-                </span>
-              </a>
-
-              <img src="images/portfolio/pf (3).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-          <!-- gallery item -->
-          <div class="item home">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Youtube Video</span>
-                  </span>
-                </span>
-              </a>
-              <img src="images/portfolio/pf (4).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-          <!-- gallery item -->
-          <div class="item office">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Vimeo Video</span>
-                  </span>
-                </span>
-              </a>
-              <img src="images/portfolio/pf (5).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-          <!-- gallery item -->
-          <div class="item commercial">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Restaurant In Texas</span>
-                  </span>
-                </span>
-              </a>
-              <img src="images/portfolio/pf (6).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-          <!-- gallery item -->
-          <div class="item home">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details-youtube.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Summer House</span>
-                  </span>
-                </span>
-              </a>
-
-              <img src="images/portfolio/pf (7).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-          <!-- gallery item -->
-          <div class="item office">
-            <div class="picframe">
-              <a class="simple-ajax-popup-align-top" href="project-details-vimeo.html">
-                <span class="overlay">
-                  <span class="pf_text">
-                    <span class="project-name">Office On Space</span>
-                  </span>
-                </span>
-              </a>
-
-              <img src="images/portfolio/pf (8).jpg" alt="" />
-            </div>
-          </div>
-          <!-- close gallery item -->
-
-        </div>
-
-        <div id="loader-area">
-          <div class="project-load"></div>
-        </div>
-      </section>
-      <!-- section close -->
-
-
-      <!-- section begin -->
+      <!-- OFFER -->
       <section id="view-all-projects" class="call-to-action bg-color text-center" data-speed="5" data-type="background" aria-label="view-all-projects">
-        <a href="projects.html" class="btn btn-line-black btn-big">Смотреть все проекты</a>
-      </section>
-      <!-- logo carousel section close -->
-
-      <!-- section begin -->
-      <section id="section-fun-facts">
         <div class="container">
-
           <div class="row">
-
-            <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
-              <h1>ФАКТЫ ОБ INTERIOR ALMATY</h1>
-              <div class="separator"><span><i class="fa fa-circle"></i></span></div>
-              <div class="spacer-single"></div>
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h2>ХОТИТЕ СЭКОНОМИТЬ СОТНИ ТЫСЯЧ ТЕНГЕ?</h2>
+              <h4>Оставьте заявку и мы расскажем как это сделать</h4>
             </div>
 
-            <div class="clearfix"></div>
-
-            <div class="col-md-3 wow fadeIn" data-wow-delay="0">
-              <div class="de_count">
-                <i class="icon-alarmclock wow zoomIn" data-wow-delay="0"></i>
-                <h3 class="timer" data-to="2350" data-speed="2500">0</h3>
-                <span>Часы Работ</span>
-              </div>
-            </div>
-
-            <div class="col-md-3 wow fadeIn" data-wow-delay=".25s">
-              <div class="de_count">
-                <i class="icon-tools wow zoomIn" data-wow-delay=".25s"></i>
-                <h3 class="timer" data-to="128" data-speed="2500">0</h3>
-                <span>Завершенные Проекты</span>
-              </div>
-            </div>
-
-            <div class="col-md-3 wow fadeIn" data-wow-delay=".5s">
-              <div class="de_count">
-                <i class="icon-piechart wow zoomIn" data-wow-delay=".5s"></i>
-                <h3 class="timer" data-to="750" data-speed="2500">0</h3>
-                <span>Пиццы съедино</span>
-              </div>
-            </div>
-
-            <div class="col-md-3 wow fadeIn" data-wow-delay=".75s">
-              <div class="de_count">
-                <i class="icon-wine wow zoomIn" data-wow-delay=".75s"></i>
-                <h3 class="timer" data-to="520" data-speed="2500">0</h3>
-                <span>Кофе выпито</span>
-              </div>
+            <div class="col-md-12">
+              <form name="contactForm" id='contact_form' method="post" action='email.php'>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div id='name_error' class='error'>Введите Ваше имя:</div>
+                    <div>
+                      <input type='text' name='name' id='name' class="form-control" placeholder="Ваше имя">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id='phone_error' class='error'>Введите номер телефона:</div>
+                    <div>
+                      <input type='text' name='phone' id='phone' class="form-control" placeholder="Ваш номер телефона">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div>
+                      <input type='submit' id='send_message' value='Отправить заявку' class="btn btn-line btn-block  btn-line-black btn-big">
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
-
         </div>
       </section>
-      <!-- section close -->
 
-
-      <!-- section begin -->
+      <!-- REVIEWS -->
       <section id="section-testimonial" class="text-light">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
+            <div class="col-md-6 col-md-offset-3 text-center">
               <h1>Клиенты говорят</h1>
               <div class="separator"><span><i class="fa fa-circle"></i></span></div>
               <div class="spacer-single"></div>
             </div>
           </div>
-          <div id="testimonial-carousel" class="de_carousel  wow fadeInUp" data-wow-delay=".3s">
+          <div id="testimonial-carousel" class="de_carousel ">
 
             <div class="col-md-6 item">
               <div class="de_testi">
@@ -614,19 +824,18 @@
           </div>
         </div>
       </section>
-      <!-- section close -->
 
-      <!-- section begin -->
+      <!-- CONTACTS -->
       <section id="section-contact" class="no-bottom">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
+            <div class="col-md-6 col-md-offset-3 text-center">
               <h1>Свяжитесь с нами</h1>
               <div class="separator"><span><i class="fa fa-circle"></i></span></div>
               <div class="spacer-single"></div>
             </div>
 
-            <div class="col-md-8 wow fadeInLeft">
+            <div class="col-md-8">
               <form name="contactForm" id='contact_form' method="post" action='email.php'>
                 <div class="row">
                   <div class="col-md-4">
@@ -663,7 +872,7 @@
               </form>
             </div>
 
-            <div class="col-md-4 wow fadeInRight">
+            <div class="col-md-4">
 
               <div class="widget_text">
                 <h3>Контактная информация</h3>
@@ -682,11 +891,9 @@
         
         <div class="spacer-double"></div>
 
-        <div id="map"></div>
       </section>
-      <!-- section close -->
 
-      <!-- footer begin -->
+      <!-- FOOTER -->
       <footer>
         <div class="container">
           <div class="row">
@@ -734,7 +941,6 @@
         </div>
         <a href="#" id="back-to-top"></a>
       </footer>
-      <!-- footer close -->
     </div>
   </div>
 
@@ -750,10 +956,7 @@
   <script src="js/owl.carousel.js"></script>
   <script src="js/jquery.countTo.js"></script>
   <script src="js/classie.js"></script>
-  <script src="js/video.resize.js"></script>
   <script src="js/validation.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
-  <script src="js/map.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/enquire.min.js"></script>

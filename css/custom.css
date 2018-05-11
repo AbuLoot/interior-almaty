@@ -1,5 +1,27 @@
+.style-header {
+  font-size: 46px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.teaser-header {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.menu-tel {
+  font-size: 15px;
+}
+#section-welcome-10{
+  background:url(../images/background/8QwyAKAVvbk.jpg) top fixed;
+
+}
+.btn-app {
+  color: #fff;
+  border-color: #333;
+  background-color: #000;
+}
 #section-services .col-md-4 > div > div {
-  min-height: 380px;
+  /*min-height: 380px;*/
 }
 .carousel-caption {
   top: 50%;
